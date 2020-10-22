@@ -9,6 +9,11 @@
   box-sizing: border-box;
 }
 
+::selection {
+  color: $color-bg;
+  background: $color-font-reg;
+}
+
 html {
   font-size: 100%;
   font-family: $font-regular;
@@ -22,12 +27,11 @@ a {
   border-bottom: solid 1px $color-font-light;
 }
 a:hover {
-  border-color: $color-font-med;
+  border-color: $color-font-med-dark;
 }
-
 p + p {
-  margin-top: $grid;
-  text-indent: $grid * 2;
+  margin-top: $grid * 2;
+  // text-indent: $grid * 2;
 }
 
 // page title
@@ -38,8 +42,29 @@ h1 {
 h2 {
   font-size: 24px;
 }
-// date
+h3 {
+
+}
 h4 {
+  font-weight: 700;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  color: $color-font-med;
+  margin-top: $grid*3;
+  margin-bottom: $grid;
+}
+ul {
+  list-style: disc;
+  padding-left: $grid*3;
+  margin: $grid*3 0;
+}
+ul li + li {
+  margin-top: $grid;
+}
+
+// date
+.date {
   color: $color-font-med;
   font-family: $font-mono;
   font-size: 11px;
@@ -47,8 +72,12 @@ h4 {
   margin-bottom: $grid*3;
 }
 
-img {
+img, iframe {
   display: block;
+  max-width: calc( 100vw - #{$grid*2} );
+  left: 50%;
+  transform: translateX(-50%);
+  margin: $grid*3 0;
 }
 
 #wrapper {
@@ -61,9 +90,16 @@ img {
 header {
   padding-top: $grid*5;
   padding-bottom: $grid*2;
+  display: flex;
+  justify-content: space-between;
+  color: $color-font-med;
+  font-size: 13px;
 }
 header a {
   border: none;
+}
+header a:hover {
+  color: $color-font-reg;
 }
 
 .content {
@@ -72,6 +108,33 @@ header a {
 
 .post {
   padding: $grid*5 0;
+}
+
+sup {
+
+}
+sup a {
+  text-decoration: none;
+  font-family: $font-mono;
+  font-size: 11px;
+  font-weight: 700;
+  border: none;
+}
+
+.footnotes {
+  border-top: solid 1px $color-font-light;
+  margin-top: $grid*3;
+  padding-top: $grid*2;
+}
+.footnotes ol {
+  list-style: decimal;
+  font-family: $font-mono;
+  font-size: 11px;
+  padding-left: $grid*3;
+  color: $color-font-med;
+}
+.footnotes ol a:hover {
+  color: $color-font-reg;
 }
 
 footer {
@@ -86,7 +149,6 @@ footer {
   line-height: 1.8;
   padding: $grid * 4 0;
 }
-
 
 
 @import "highlights"
