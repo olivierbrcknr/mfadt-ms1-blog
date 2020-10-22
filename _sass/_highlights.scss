@@ -1,10 +1,12 @@
 
-.highlight {
-  background: $lightGray;
+pre.highlight {
+  background: lighten( $color-font-reg, 85% );
+  border-radius: 2px;
+  padding: $grid;
 }
 
 code {
-  font-family: $mono-font;
+  font-family: $font-mono;
 }
 
 .highlight .c { color: #586E75 } /* Comment */

@@ -11,14 +11,82 @@
 
 html {
   font-size: 100%;
-  font-family: $regular-font;
+  font-family: $font-regular;
+  color: $color-font-reg;
+  font-size: 16px;
+  line-height: 1.8;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: solid 1px $color-font-light;
+}
+a:hover {
+  border-color: $color-font-med;
 }
 
+p + p {
+  margin-top: $grid;
+  text-indent: $grid * 2;
+}
+
+// page title
+h1 {
+  font-size: 32px;
+}
+// blog title
+h2 {
+  font-size: 24px;
+}
+// date
+h4 {
+  color: $color-font-med;
+  font-family: $font-mono;
+  font-size: 11px;
+  margin-top: 0;
+  margin-bottom: $grid*3;
+}
+
+img {
+  display: block;
+}
 
 #wrapper {
   width: 100vw;
-  max-width: 960px;
+  max-width: $max-width;
   margin: auto;
+  padding: $grid;
 }
+
+header {
+  padding-top: $grid*5;
+  padding-bottom: $grid*2;
+}
+header a {
+  border: none;
+}
+
+.content {
+
+}
+
+.post {
+  padding: $grid*5 0;
+}
+
+footer {
+  padding: $grid*5 0;
+  font-family: $font-mono;
+  font-size: 11px;
+}
+
+.shortDesc {
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 1.8;
+  padding: $grid * 4 0;
+}
+
+
 
 @import "highlights"

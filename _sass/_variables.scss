@@ -7,13 +7,15 @@
 $blue: #4183C4;
 
 // Grays
-$black: #000;
-$darkerGray: #222;
-$darkGray: #333;
-$gray: #666;
-$lightGray: #eee;
-$white: #fff;
+$color-font-reg: #191a1c;
+$color-font-med: lighten( $color-font-reg, 50% );
+$color-font-light: lighten( $color-font-reg, 70% );
 
-// Font stacks
-$regular-font: 'IBM Plex Sans', sans-serif;
-$mono-font: 'Space Mono', monospace;;
+// Sizes
+$grid: 8px;
+
+$max-width: 680px;
+
+// Fonts
+$font-regular: 'IBM Plex Sans', sans-serif;
+$font-mono: 'Space Mono', monospace;;
