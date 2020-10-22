@@ -1,0 +1,15 @@
+title: Olivier's Blog MS01 # Title of site.
+timezone: Germany/Berlin
+
+sass:
+   sass_dir: _sass
+   style: :compressed
+
+google_fonts:
+  - name: "IBM Plex Sans"
+    weights: "300,400,400i,600,600i"
+  - name: "Space Mono"
+    weights: "400,400i,700,700i"
+
+kramdown:
+  syntax_highlighter: rouge

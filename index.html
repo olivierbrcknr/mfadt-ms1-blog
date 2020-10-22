@@ -1,0 +1,25 @@
+---
+title: Home
+layout: default
+---
+
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
+
+      <h2>
+        <a href="{{ site.baseurl }}{{ post.url }}">
+          {{ post.title }}
+        </a>
+      </h2>
+      <h4>
+        Written on {{ post.date | date: "%B %e, %Y" }}
+      </h4>
+
+      <div class="entry">
+        {{ post.content }}
+      </div>
+
+    </article>
+  {% endfor %}
+</div>

@@ -1,0 +1,24 @@
+---
+---
+
+@import "reset";
+@import "variables";
+
+* {
+	position: relative;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+  font-family: $regular-font;
+}
+
+
+#wrapper {
+  width: 100vw;
+  max-width: 960px;
+  margin: auto;
+}
+
+@import "highlights"
