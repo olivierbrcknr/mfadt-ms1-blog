@@ -72,7 +72,9 @@ ul li + li {
   margin-bottom: $grid*3;
 }
 
-img, iframe {
+img,
+iframe,
+.putInCenter {
   display: block;
   max-width: calc( 100vw - #{$grid*2} );
   left: 50%;
