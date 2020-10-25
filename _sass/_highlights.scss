@@ -8,6 +8,9 @@ pre.highlight {
 
 code {
   font-family: $font-mono;
+  background: lighten( $color-font-reg, 80% );
+  border-radius: 2px;
+  padding: 0px 4px;
 }
 
 .highlight .c { color: #586E75 } /* Comment */
