@@ -82,6 +82,27 @@ iframe,
   margin: $grid*3 0;
 }
 
+.smallImagesWidth img {
+  width: calc( 100vw - #{$grid*2} );
+  max-width: 500px;
+}
+
+// image caption
+img + strong {
+  display: block;
+  max-width: 500px;
+  margin: $grid*-2 auto $grid*5 auto;
+  font-family: $font-mono;
+  font-size: 12px;
+  font-weight: normal;
+  color: $color-font-med;
+  transition: color 0.3s;
+}
+img:hover + strong,
+img + strong:hover {
+  color: $color-font-reg;
+}
+
 #wrapper {
   width: 100vw;
   max-width: $max-width;
