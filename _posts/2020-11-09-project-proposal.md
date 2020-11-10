@@ -41,6 +41,12 @@ Here is a list of projects that I think are interesting, that are touching the s
 ![LittleBigPrinter](https://raw.githubusercontent.com/olivierbrcknr/littleBigPrinter/master/00_img/title.jpg)
 **[LittleBigPrinter](https://little-big-printer-messenger.now.sh/) by *Olivier Brückner*: A small printer that is focussing on the semi-public space where it is set up. It directly prints out messages sent to it, bringing back communication similar to letters yet still being instant.**
 
+![Squeeze](http://www.thomasthwaites.com/folio5/wp-content/uploads/2010/08/contact80_05.jpg)
+**[Squeeze](https://www.thomasthwaites.com/squeeze/) by *Thomas Thwaites*: A small bracelet that lets one 'squeeze' the counterparts arm, giving the subtle feeling of comfort.**
+
+![Digital Touch — Heartbeat](https://media.idownloadblog.com/wp-content/uploads/2016/10/watchos3-digital-touch-heartbeat.jpg)
+**[Digital Touch](https://support.apple.com/en-gb/guide/watch/apdebd0bb96c/watchos) by *Apple*: The app lets people interchange small sketches and emotions. Most interestingly it is also capable of sharing the heartbeat of a person, bringing a new level of intimacy.**
+
 #### Questions & Approach
 
 I wonder, which ways of communication inherit the feelings I want to cover. Is it about facial expressions? Is it about the anticipation of someone who is ringing the doorbell and you wait until this person arrived in your apartment? Is it about the ‘slight discomfort’ that sometimes is created in a room when a specific topic is talked about?
