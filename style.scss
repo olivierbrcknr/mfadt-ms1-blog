@@ -63,6 +63,14 @@ ul li + li {
   margin-top: $grid;
 }
 
+hr {
+  border: none;
+  margin: $grid*6 0;
+  width: $grid*10;
+  height: 1px;
+  background: $color-font-light;
+}
+
 // date
 .date {
   color: $color-font-med;
@@ -80,6 +88,12 @@ iframe,
   left: 50%;
   transform: translateX(-50%);
   margin: $grid*3 0;
+}
+.twitter-tweet {
+  display: flex;
+  max-width: 550px;
+  width: 100% !important;
+  margin: $grid*3 0 $grid*2 50% !important;
 }
 
 .smallImagesWidth img {
