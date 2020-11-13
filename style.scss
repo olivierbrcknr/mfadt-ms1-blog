@@ -37,10 +37,16 @@ p + p {
 // page title
 h1 {
   font-size: 32px;
+  a {
+    border: none;
+  }
 }
 // blog title
 h2 {
   font-size: 24px;
+  a {
+    border: none;
+  }
 }
 h3 {
 
