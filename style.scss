@@ -71,6 +71,15 @@ ul li + li {
   margin-top: $grid;
 }
 
+ol {
+  list-style: decimal;
+  padding-left: $grid*3;
+  margin: $grid*3 0;
+}
+ol li + li {
+  margin-top: $grid;
+}
+
 hr {
   border: none;
   margin: $grid*6 0;
@@ -195,5 +204,5 @@ footer {
   padding: $grid * 4 0;
 }
 
-
+@import "specials";
 @import "highlights"

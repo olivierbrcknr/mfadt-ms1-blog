@@ -1,0 +1,30 @@
+
+// Color Charts
+.colorCharts {
+  width: 100%;
+  display: flex;
+  margin: $grid*3 0;
+  justify-content: center;
+
+  .ColorCard {
+
+    flex: 1;
+    max-width: 200px;
+    margin-right: $grid*2;
+
+    .Color {
+      width: 100%;
+      border-radius: 4px;
+      &:before {
+        content: '';
+        display: block;
+        padding-top: 100%;
+      }
+    }
+    .Label {
+      padding-top: $grid;
+      font-family: $font-mono;
+      font-size: 13px;
+    }
+  }
+}
