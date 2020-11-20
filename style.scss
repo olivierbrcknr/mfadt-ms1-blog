@@ -14,12 +14,14 @@
   background: $color-font-reg;
 }
 
-html {
+html,
+body {
   font-size: 100%;
   font-family: $font-regular;
   color: $color-font-reg;
   font-size: 16px;
   line-height: 1.8;
+  overflow-x: hidden;
 }
 a {
   color: inherit;
@@ -149,7 +151,6 @@ img + strong:hover {
   max-width: $max-width;
   margin: auto;
   padding: $grid;
-  overflow-x: hidden;
 }
 
 header {
