@@ -105,6 +105,16 @@ iframe,
   left: 50%;
   transform: translateX(-50%);
   margin: $grid*3 0;
+  overflow-x: hidden;
+
+  canvas {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  @media screen and (max-width: $max-width) {
+    max-width: calc( 100vw - #{$grid*2} ) !important;
+  }
 }
 .twitter-tweet {
   display: flex;
@@ -139,6 +149,7 @@ img + strong:hover {
   max-width: $max-width;
   margin: auto;
   padding: $grid;
+  overflow-x: hidden;
 }
 
 header {
