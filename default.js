@@ -13,5 +13,5 @@ let checkImagesFor2x = () => {
 }
 
 document.addEventListener("DOMContentLoaded", function(){
-  checkImagesFor2x();
+  // checkImagesFor2x();
 });

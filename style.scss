@@ -101,9 +101,10 @@ hr {
 
 img,
 iframe,
+video,
 .putInCenter {
   display: block;
-  max-width: calc( 100vw - #{$grid*2} );
+  max-width: clamp( 100%, calc( 100vw - #{$grid*2} ), 1200px ); //calc( 100vw - #{$grid*2} );
   left: 50%;
   transform: translateX(-50%);
   margin: $grid*3 0;

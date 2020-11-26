@@ -19,3 +19,34 @@
   {% endif %}
 
 {% endif %}
+
+
+{% if include.video_src %}
+
+  {% if include.video_src contains "http" %}
+
+  <video
+    class="lazyload"
+    preload="none"
+    muted
+    autoplay
+    loop
+    data-src="{{include.video_src}}"
+    >
+  </video>
+
+  {% else %}
+
+  <video
+    class="lazyload"
+    preload="none"
+    muted
+    autoplay
+    loop
+    data-src="{{ site.baseurl }}/assets/{{include.video_src}}"
+    >
+  </video>
+
+  {% endif %}
+
+{% endif %}
