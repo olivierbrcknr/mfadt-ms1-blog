@@ -47,6 +47,9 @@ Here is a list of projects that I think are interesting, that are touching the s
 {% include lazyload.html image_src="https://media.idownloadblog.com/wp-content/uploads/2016/10/watchos3-digital-touch-heartbeat.jpg" image_alt="Digital Touch — Heartbeat" %}
 **[Digital Touch](https://support.apple.com/en-gb/guide/watch/apdebd0bb96c/watchos) by *Apple*: The app lets people interchange small sketches and emotions. Most interestingly it is also capable of sharing the heartbeat of a person, bringing a new level of intimacy.**
 
+{% include lazyload.html image_src="http://jenswunderling.com/works/default-to-public/gallery/1_tweetleak_bar_2.JPG" image_alt="default to public" %}
+**[default to public](http://jenswunderling.com/works/default-to-public/) by *Jens Wunderling*: A project in which tweets within a specific area get printed near that area in a public space. It is a nice way of bringing the digital back to the physical.**
+
 #### Questions & Approach
 
 I wonder, which ways of communication inherit the feelings I want to cover. Is it about facial expressions? Is it about the anticipation of someone who is ringing the doorbell and you wait until this person arrived in your apartment? Is it about the ‘slight discomfort’ that sometimes is created in a room when a specific topic is talked about?

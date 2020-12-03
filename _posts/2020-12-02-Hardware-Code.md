@@ -10,6 +10,8 @@ When running the program, I realized that the flip dots get extremely hot when t
 
 I then started to refactor the database. It now is able to send arrays as well, allowing to process the content entirely on the website. The new [*MatrixDraw* component](https://github.com/olivierbrcknr/flipdot-communicator/tree/master/website/components/MatrixDraw) enables visitors to send draw and send own images in this very limited resolution.
 
+Find the code [→ here](https://github.com/olivierbrcknr/flipdot-communicator/blob/master/hardware/FlipDotCommunicator/FlipDotCommunicator.ino)
+
 {% include lazyload.html image_src="ArduinoIDEScreenshot.jpg" image_alt="Programming with the Arduino IDE" %}
 
 #### Next Issues
@@ -17,3 +19,10 @@ I then started to refactor the database. It now is able to send arrays as well, 
 The next big issue seems to be the `buffer`. I can only read so many data entries per call, which will eventually be an issue when getting to sending more complex matrixes.
 
 Especially, when sending animations this will be a problem. I don't know if I am able to figure this out in the time given by the deadline.
+
+#### Additional
+
+I stumbled upon [this repository](https://github.com/ndsh/flipdots) by [Julian Hespenheide](http://www.julian-h.de/), which is explaining flip dots quite thoroughly, in case you want to know more! (I found it too late, unfortunately…) 
+
+Currently the studio Julian Hespenheide works at, is having an exhibition displaying a flip dot display. Read more about it at the studio's website: [Studio TheGreenEyl](http://www.thegreeneyl.com/living-city).
+
