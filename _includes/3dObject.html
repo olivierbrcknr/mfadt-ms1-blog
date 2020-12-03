@@ -1,0 +1,30 @@
+
+
+
+
+<div class='obj-{{include.file | remove: ".obj"}}'>
+
+</div>
+
+<script type="text/javascript" >
+
+  let fileName = '{{include.file | remove: ".obj"}}';
+  let OBJ_{{include.file | remove: ".obj"}} = new Object3D( fileName );
+
+  document.addEventListener("DOMContentLoaded", function(){
+
+    let fileUrl = '{{ site.baseurl }}/assets/{{include.file}}';
+
+    loader.load(
+      fileUrl,
+      function ( object ) {
+        OBJ_{{include.file | remove: ".obj"}}.pass(object);
+      }
+    );
+  });
+
+  window.addEventListener('scroll', function(e) {
+    OBJ_{{include.file | remove: ".obj"}}.onScroll();
+  });
+
+</script>
