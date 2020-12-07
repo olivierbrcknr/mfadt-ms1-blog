@@ -5,8 +5,8 @@ additionalClasses: smallImagesWidth
 ---
 
 {% include lazyload.html image_src="https://cdn.shopify.com/s/files/1/0182/0827/products/BANDANA_001_900x.jpg" image_alt="Not Alone Bandana" %}
-**Not Alone Bandana by [ZrksZrks](https://zirkus-zirkus.com/products/not-alone-bandana)**
-
+Not Alone Bandana by [ZrksZrks](https://zirkus-zirkus.com/products/not-alone-bandana)
+{: .imageDesc}
 
 # Distant Socializing
 
@@ -30,25 +30,32 @@ In this project, I want to explore a way of communicating with one another but o
 Here is a list of projects that I think are interesting, that are touching the same realm:
 
 {% include lazyload.html image_src="https://www.takram.com/wp-content/uploads/2016/03/knock-knock-article02.jpg" image_alt="Knock Knock" %}
-**[Knock Knock / 8h Ahead](https://www.takram.com/projects/8h-ahead/) by *Takram*: Knocking on the screen echoes a knocking sound on the counterpart object as well, imitating the subtle nudging a colleague asking or advice.**
+[Knock Knock / 8h Ahead](https://www.takram.com/projects/8h-ahead/) by *Takram*: Knocking on the screen echoes a knocking sound on the counterpart object as well, imitating the subtle nudging a colleague asking or advice.
+{: .imageDesc}
 
 {% include lazyload.html image_src="https://nordprojects.co/projects/littleprinters/img/lp-hero-desktop-v1.jpg" image_alt="Little Printer" %}
-**[Little Printer](https://www.dezeen.com/2014/09/09/little-printer-design-company-berg-to-close/) by *Berg Cloud*: A little helper, printing out your personal feed on thermal paper, this could include newspaper articles, tweets, sudokus, etc. Unfortunately, BERG shut down in 2014, and thus the servers for the Little Printer as well. Last year [Nord Projects](https://nordprojects.co/projects/littleprinters/) built their own communication service on top of the old hardware.**
+[Little Printer](https://www.dezeen.com/2014/09/09/little-printer-design-company-berg-to-close/) by *Berg Cloud*: A little helper, printing out your personal feed on thermal paper, this could include newspaper articles, tweets, sudokus, etc. Unfortunately, BERG shut down in 2014, and thus the servers for the Little Printer as well. Last year [Nord Projects](https://nordprojects.co/projects/littleprinters/) built their own communication service on top of the old hardware.
+{: .imageDesc}
 
 {% include lazyload.html image_src="https://discomfortzone.ideo.com/static/35a275f9853b17e49764e030f0976fb6/5b12f/CM_1.jpg" image_alt="Complementary Media" %}
-**[Complementary Media / Discomfort Zone](https://discomfortzone.ideo.com/ComplementaryMedia/) by *IDEO*: IDEO did a couple of experiments that could be done with machine learning. One of my favorites of this series is the Complementary Media which includes photos of one’s face to display emotions more deliberately and personally than emojis do.**
+[Complementary Media / Discomfort Zone](https://discomfortzone.ideo.com/ComplementaryMedia/) by *IDEO*: IDEO did a couple of experiments that could be done with machine learning. One of my favorites of this series is the Complementary Media which includes photos of one’s face to display emotions more deliberately and personally than emojis do.
+{: .imageDesc}
 
 {% include lazyload.html image_src="https://raw.githubusercontent.com/olivierbrcknr/littleBigPrinter/master/00_img/title.jpg" image_alt="LittleBigPrinter" %}
-**[LittleBigPrinter](https://little-big-printer-messenger.now.sh/) by *Olivier Brückner*: A small printer that is focussing on the semi-public space where it is set up. It directly prints out messages sent to it, bringing back communication similar to letters yet still being instant.**
+[LittleBigPrinter](https://little-big-printer-messenger.now.sh/) by *Olivier Brückner*: A small printer that is focussing on the semi-public space where it is set up. It directly prints out messages sent to it, bringing back communication similar to letters yet still being instant.
+{: .imageDesc}
 
 {% include lazyload.html image_src="http://www.thomasthwaites.com/folio5/wp-content/uploads/2010/08/contact80_05.jpg" image_alt="Squeeze" %}
-**[Squeeze](https://www.thomasthwaites.com/squeeze/) by *Thomas Thwaites*: A small bracelet that lets one 'squeeze' the counterparts arm, giving the subtle feeling of comfort.**
+[Squeeze](https://www.thomasthwaites.com/squeeze/) by *Thomas Thwaites*: A small bracelet that lets one 'squeeze' the counterparts arm, giving the subtle feeling of comfort.
+{: .imageDesc}
 
 {% include lazyload.html image_src="https://media.idownloadblog.com/wp-content/uploads/2016/10/watchos3-digital-touch-heartbeat.jpg" image_alt="Digital Touch — Heartbeat" %}
-**[Digital Touch](https://support.apple.com/en-gb/guide/watch/apdebd0bb96c/watchos) by *Apple*: The app lets people interchange small sketches and emotions. Most interestingly it is also capable of sharing the heartbeat of a person, bringing a new level of intimacy.**
+[Digital Touch](https://support.apple.com/en-gb/guide/watch/apdebd0bb96c/watchos) by *Apple*: The app lets people interchange small sketches and emotions. Most interestingly it is also capable of sharing the heartbeat of a person, bringing a new level of intimacy.
+{: .imageDesc}
 
 {% include lazyload.html image_src="http://jenswunderling.com/works/default-to-public/gallery/1_tweetleak_bar_2.JPG" image_alt="default to public" %}
-**[default to public](http://jenswunderling.com/works/default-to-public/) by *Jens Wunderling*: A project in which tweets within a specific area get printed near that area in a public space. It is a nice way of bringing the digital back to the physical.**
+[default to public](http://jenswunderling.com/works/default-to-public/) by *Jens Wunderling*: A project in which tweets within a specific area get printed near that area in a public space. It is a nice way of bringing the digital back to the physical. 
+{: .imageDesc}
 
 #### Questions & Approach
 
@@ -60,7 +67,8 @@ In my project, I want to focus on one of them, creating a device that allows for
 #### Ideal Concept
 
 {% include lazyload.html image_src="https://www.ikea.com/de/de/images/products/frekvens-multibeleuchtung-led-schwarz__0811699_PE771764_S5.JPG" image_alt="FREKVENS" %}
-**[FREKVENS](https://www.ikea.com/de/de/p/frekvens-multibeleuchtung-led-schwarz-30420354/) by *IKEA* is an inspirational form prototype, displaying the abstract box and LED matrix while only being a tool to communicate the emotion.**
+[FREKVENS](https://www.ikea.com/de/de/p/frekvens-multibeleuchtung-led-schwarz-30420354/) by *IKEA* is an inspirational form prototype, displaying the abstract box and LED matrix while only being a tool to communicate the emotion.
+{: .imageDesc}
 
 I am currently thinking about a small box that is portable and can be set up on a table or hung up on a wall (inspired by [Teenage Engineering’s Raven](https://teenage.engineering/designs/R)). It only has a LED matrix display, a tactile sensor or button, and a small speaker. It is connected to a few other boxes or people, selected by the user, representing only a small friend circle (inspired by [Christoph Labacher](https://www.christophlabacher.com/notes/student-project-archive)).
 Similar to a

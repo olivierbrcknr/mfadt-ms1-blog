@@ -85,6 +85,9 @@ class Object3D {
         rotateObj( e.offsetX / el.clientWidth );
       }
     });
+    el.addEventListener("mouseleave", function(e){
+      el.onmousemove = null
+    });
     el.addEventListener("mouseup", function(e){
       el.onmousemove = null
     });

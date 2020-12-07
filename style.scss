@@ -132,7 +132,7 @@ video,
 }
 
 // image caption
-img + strong {
+.imageDesc {
   display: block;
   max-width: 500px;
   margin: $grid*-2 auto $grid*5 auto;
@@ -142,8 +142,8 @@ img + strong {
   color: $color-font-med;
   transition: color 0.3s;
 }
-img:hover + strong,
-img + strong:hover {
+img:hover + .imageDesc,
+.imageDesc:hover {
   color: $color-font-reg;
 }
 
