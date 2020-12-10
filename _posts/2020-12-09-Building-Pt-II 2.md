@@ -13,6 +13,6 @@ I had the only issue due to the slightly tighter "window" resulting from the fil
 
 {% include lazyload.html image_src="AssemblyDesk.jpg" image_alt="Assembly at the desk" %}
 
-<!-- Add image from internal setup. -->
+{% include lazyload.html image_src="openDevice.jpg" image_alt="Device Open Assembled" %}
 
 Now, as the device is put together, I can refine the website's interaction and finalize the messages themselves. 
