@@ -7,7 +7,9 @@ After the paint had dried, I was today able to continue assembling the device. T
 
 {% include lazyload.html image_src="FinalParts.jpg" image_alt="The final parts to assemble" %}
 
-Then I assembled all the components. I needed to solder some smaller elements, e.g., the phone jacks and the little button PCB. Gladly, everything fits where it should, having made the assembly relatively straight forward. 
+Then I assembled all the components. I needed to solder some smaller elements, e.g., the phone jacks and the little button PCB. Gladly, everything fits where it should, having made the assembly relatively straight forward.
+
+{% include lazyload.html image_src="https://raw.githubusercontent.com/olivierbrcknr/flipdot-communicator/master/hardware/docs/wiring.svg" image_alt="Wiring" class="imageMaxWidthText" %}
 
 I had the only issue due to the slightly tighter "window" resulting from the filling and spray paint. Two flip dots in the corners were not flipping correctly, as the additional tension was holding them put. A little bit of filing seemed to do the trick.
 

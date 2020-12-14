@@ -31,6 +31,12 @@ a {
 a:hover {
   border-color: $color-font-med-dark;
 }
+a.button {
+  padding: $grid;
+  background: $color-font-reg;
+  color: $color-bg;
+  border: none;
+}
 p + p {
   margin-top: $grid * 2;
   // text-indent: $grid * 2;
@@ -129,6 +135,10 @@ video,
 .smallImagesWidth img {
   width: calc( 100vw - #{$grid*2} );
   max-width: 500px;
+}
+
+.imageMaxWidthText {
+  max-width: $max-width;
 }
 
 // image caption
